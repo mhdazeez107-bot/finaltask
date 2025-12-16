@@ -1,0 +1,164 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #e9ffe9;
+    margin: 0;
+    color: #252525;
+}
+nav {
+    background: #e0ffe0;
+    box-shadow: 0 2px 5px rgba(0,150,136,0.07);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1em;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #009688;
+    font-weight: bold;
+    padding: 0.45em 0.9em;
+    border-radius: 5px;
+    transition: background 0.22s;
+}
+nav ul li a.active, nav ul li a:hover {
+    background: #b2f7c2;
+    color: #222;
+}
+.hero {
+    background: url('hero-image.jpg') center/cover no-repeat;
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    background-blend-mode: overlay;
+    background-color: rgba(0,150,136,0.78);
+}
+.about em,
+.about strong {
+    color: #E57373;
+}
+.skills ul {
+    list-style-type: square;
+    margin-left: 2em;
+}
+.skills ul li {
+    margin-bottom: 7px;
+    padding-left: 5px;
+    color: #388e3c;
+    font-weight: 500;
+}
+.certifications table {
+    width: 92%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0.8em auto;
+    background: #fafafa;
+}
+.certifications caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 1.03em;
+    padding: 7px 0;
+}
+.certifications th, .certifications td {
+    border: 1.2px solid #a5d6a7;
+    padding: 0.5em 0.8em;
+}
+.certifications th {
+    background: #f3e5f5;
+}
+.certifications td.highlight {
+    background: #d0f8ce;
+}
+.portfolio {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.project {
+    width: 220px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #c7c7e8;
+    padding: 0.7em;
+    text-align: center;
+}
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+.resources a {
+    color: #fff;
+    background: #009688;
+    padding: 0.35em 0.7em;
+    margin: 0 0.3em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+    font-size: 1em;
+}
+.resources a:hover {
+    background: #00796b;
+}
+.contact-form {
+    width: 350px;
+    margin: 1.5em auto;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 98%;
+    padding: 0.6em;
+    border: 1.2px solid #80cbc4;
+    border-radius: 7px;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.contact-form button {
+    width: 100%;
+    background: #009688;
+    color: #fff;
+    padding: 0.7em;
+    font-size: 1.05em;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.25s;
+}
+.contact-form button:hover {
+    background: #388e3c;
+}
+footer {
+    background: #e0ffe0;
+    text-align: center;
+    padding: 1em 0 0.7em 0;
+    font-size: 0.87em;
+    color: #888;
+    border-top: 1.5px solid #b2f7b2;
+    margin-top: 2em;
+}
+.project:hover {
+    transform: scale(1.07);
+    box-shadow: 0 6px 18px #388e3c77;
+    transition: 0.27s;
+}
+blockquote {
+    border-left: 5px solid #009688;
+    padding-left: 1.5em;
+    margin: 1em 2em;
+    background: #f6fff6;
+    font-style: italic;
+    color: #388e3c;
+}
+
