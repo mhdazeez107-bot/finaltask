@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Muhammed Azeez</title>
+<style>
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background-color: #212121;
+    color: #80cbc4;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #4db6ac;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    width: 90vw;
+    max-width: 600px;
+    height: 80vh;
+  }
+  .card {
+    background: #263238;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    padding: 1.8rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    color: #80cbc4;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+  }
+  .card:hover {
+    background: #37474f;
+    transform: translateY(-7px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.9);
+  }
+  .card h2 {
+    margin: 0 0 0.8rem 0;
+    color: #4db6ac;
+    font-size: 1.9rem;
+  }
+  .card p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #b2dfdb;
+  }
+  .pdf-card {
+    padding: 0;
+    height: 100%;
+  }
+  .pdf-card iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: none;
+    display: block;
+  }
+  @media (max-height: 700px) {
+    .cards-container {
+      height: auto;
+      max-height: 80vh;
+      overflow-y: auto;
+      padding-right: 8px;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1>Muhammed Azeez </h1>
+  <div class="cards-container">
+    <a href="course.pptx" class="card" target="_blank" rel="noopener noreferrer">
+      <h2>Course Presentation</h2>
+      <p>Course Presentation with Certificate.</p>
+    </a>
+    <a href="mammu.pptx" class="card" target="_blank" rel="noopener noreferrer">
+      <h2>Problem Solving Mini Project</h2>
+      <p>Mini Project on Problem Solving About Agriculture using AI.</p>
+    </a>
+    <a href="mammu/index.html" class="card" target="_blank" rel="noopener noreferrer">
+      <h2>Personal Portfolio</h2>
+      <p>Personal portfolio Website.</p>
+    </a>
+   
+  </div>
+</body>
+</html>
